@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ECF0F1;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  #preloader{
+    background: #fd6e36 ;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    color: black;
+    position: sticky;
+    box-shadow: 0px 10px 10px -15px #111;
+  }
+
+  nav img {
+    height: 6rem;
+    background-color: #fff;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+  }
+
+  nav li {
+    padding: 0.5rem;
+    background-color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  nav a {
+   background-color: #fff;
+    text-decoration: none;
+    color: black;
+  }
+
+  .download-button {
+    padding: 1rem 1rem;
+    background-color: #fc9905;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+
+  .Download{
+    height: 5rem;
+    width: 20rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+
+.fa-user{
+    font-size: 3rem;
+    background-color: #fff;
+}
+
+  .login{
+   border: none;
+   cursor: pointer;
+ }
+
+.nav-item:hover {
+    color: #AEB6BF ;
+    transition: 0.2s;
+    bottom: .2rem;
+}
+.nav-items {
+    gap: 2.4rem;
+    color: #B2BABB;
+}
+
+.first-bg-home{
+  width: 100%;
+  align-items: stretch;
+}
+
+.first-bg-home-sub{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section1-content{
+  position: absolute;
+  top: 20rem;
+  left: 75rem;
+  background-color: transparent;
+}
+.bg-home-heading1{
+  background-color: transparent;
+  color: #FEF9E7;
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+.bg-home-paragraph1{
+  background-color: transparent;
+  color: white;
+  font-size: 1.5rem;
+  line-height: 4rem;
+}
+
+.bg-home-paragraph1 a{
+background-color: transparent;
+color: #fff;
+}
+
+.location-btn{
+  background-color:  hwb(29 0% 0%);
+  color: white;
+  font-size: 2rem;
+  border-radius: .7rem;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
